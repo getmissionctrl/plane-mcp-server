@@ -119,6 +119,8 @@ The Plane MCP Server is a Model Context Protocol (MCP) server that provides seam
 
 ### Issues
 
+- `get_project_issues` - Get All issues for a project
+  - `project_id`: UUID of the project (string, required)
 - `get_issue_using_readable_identifier` - Get issue details using readable identifier (e.g., PROJ-123)
 
   - `project_identifier`: Project identifier (e.g., "PROJ") (string, required)
